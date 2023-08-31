@@ -1,4 +1,4 @@
-package StepDefination;
+package Stepdefination;
 
 import java.util.List;  
 import org.openqa.selenium.By;   
@@ -34,5 +34,5 @@ public class stepdef {
     public void replyAdmin(){
         driver.findElement(By.id("write")).sendKeys("qwertyuiopasdfghjklzxcvbnm");
         driver.findElement(By.id("send")).click();
-    }
+    }
 }
